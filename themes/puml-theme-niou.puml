@@ -1,0 +1,92 @@
+@startuml
+!theme bluegray
+'更多皮肤 https://moretop.gitee.io/plantuml/themes
+'========主题样式 start=========
+skinparam Padding 5
+skinparam ParticipantPadding 50
+skinparam backgroundColor #f5f5f5
+skinparam handwritten false
+
+skinparam default {
+FontColor #656565
+FontSize 16
+FontName Courier
+}
+
+skinparam title {
+FontColor #656565
+FontSize 28
+BorderColor transparent
+}
+
+skinparam note {
+BackgroundColor #feffdd
+BorderColor #656565
+}
+
+skinparam sequence {
+	Arrow {
+		Color #a18fe7
+	}
+
+	LifeLine {
+		BorderColor #a18fe7
+		BackgroundColor #ffd061
+	}
+
+	Participant {
+		BorderColor #4b71ef
+		BackgroundColor #4b71ef
+		FontSize 16
+		FontColor #FFFFFF
+	}
+
+	Actor {
+		BorderColor #4b71ef
+		BackgroundColor #4b71ef
+		FontColor #656565
+		FontSize 16
+		FontName Helvetica
+	}
+
+	Group {
+		BorderColor #a18fe7
+		BackgroundColor #FFFFFF
+		HeaderFontSize 20
+	}
+}
+
+skinparam Activity {
+  BackgroundColor #4b71ef
+  BorderColor transparent
+  FontSize 16
+  FontColor #FFFFFF
+  FontStyle bold
+
+  Diamond {
+    BackgroundColor #ffd061
+    FontSize 16
+    FontColor #656565
+  }
+
+  StartColor black
+  StopColor black
+  EndColor black
+
+}
+
+skinparam Swimlane{
+  Width 350
+}
+
+'========主题样式 endt=========
+
+'页眉页脚start
+header 收单甄选
+footer 浙江国通-王依
+'页眉页脚end
+
+
+
+
+@enduml
